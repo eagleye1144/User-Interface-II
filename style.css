@@ -1,0 +1,129 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.8rem;
+}
+html{
+    font-size: 62.5%;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+}
+h1{
+    margin-left: 5%;
+}
+header{
+    background-color: bisque;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid black;
+    background-color: rgb(240, 155, 94);
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+.upper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.mainTeam{
+    height: 50%;
+    width: 50%;
+}
+footer{
+    background-color: bisque;
+   text-align: center;
+}
+.upperText{
+    margin-top: 5%;
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 1%;
+}
+.tim{
+    text-align: center;
+}
+.pulisic{
+    text-align: center;
+
+}
+.weston{
+    text-align: center;
+
+}
+.adams{
+    text-align: center;
+
+}
+.dest{
+    text-align: center;
+
+}
+.gio{
+    text-align: center;
+
+}
+.steffen{
+    text-align: center;
+
+}
+.robinson{
+    text-align: center;
+
+}
+.linkedIn{
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 0.9%;
+    font-weight: normal;
+    border-width: thin;
+}
+/* Media Queries*/
+@media(max-width:800px){
+    body{
+        background-color: teal;
+    }
+}
+@media(max-width:500px){
+    body{
+        background-color: yellowgreen;
+    }
+    nav{
+        flex-direction:column;
+        align-items: center;
+    }
+    h1{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .mainTeam{
+        width:100%
+    }
+    .main img {
+        height: 300px;
+        width: 200px;
+        padding: 20px;
+    }
+}
