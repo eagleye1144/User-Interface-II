@@ -1,7 +1,10 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.8rem;
 }
-
+html{
+    font-size: 62.5%;
+}
 
 .navBar{
     display: flex;
@@ -97,4 +100,15 @@ button{
     padding: 0.9%;
     font-weight: normal;
     border-width: thin;
+}
+/* Media Queries*/
+@media(max-width:800px){
+    body{
+        background-color: teal;
+    }
+}
+@media(max-width:500px){
+    body{
+        background-color: yellowgreen;
+    }
 }
